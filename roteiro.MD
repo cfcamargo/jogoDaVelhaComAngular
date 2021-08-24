@@ -2,7 +2,7 @@ Desafio 1: Jogo da Velha
 
 
 [ x ] Criar componente ticTactoe
-[   ] Criar protótipo da interface com:
+[ x ] Criar protótipo da interface com:
     - Indicação do jogador atual
     - Indicação do vencedor(quando acabar a partida)
     - Botao para reiniciar a partida
