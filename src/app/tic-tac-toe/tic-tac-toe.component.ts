@@ -8,11 +8,21 @@ import { Component, OnInit } from '@angular/core';
 export class TicTacToeComponent{
 
   currentPlayer: string = "O";
+  winner:string = "";
+
   board: string[][] = [
     ['','',''],
     ['','',''],
     ['','','']
   ];
+
+
+
+  processPlay(line: number, col:number){
+
+    console.log(`Jogada na linha ${line}, coluna ${col} do jogador ${this.currentPlayer}`)
+
+  }
 
   constructor() { }
 
